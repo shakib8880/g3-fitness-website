@@ -12,6 +12,34 @@
 .display-flex{
     display: flex;
 }
+.btn-join-now{
+    background-color:#E6533C;
+    color: #ffffff;
+    padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            /* background-color: #ff5733; Change to desired color */
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            text-align: center;
+            display: inline-block;
+            transition: background-color 0.3s;
+            
+}
+.btn-down-app{
+    background-color: #111111;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
 
 .text-gray{
     color:#ffffff;
@@ -49,9 +77,12 @@
     
    
 }
-.brand{
-    font-size: 600;
-    position: static;
+.brand {
+    /* font-size: 600; */
+    /* position: static; */
+    font-weight: 700;
+    font-size: 3rem;
+
     
 }
 
@@ -72,4 +103,36 @@
 
 .body{
     background-color: #111111;
+}
+
+.banner-title{
+    color: #ffffff;
+    /* width: 520px; height: 282px; */
+    /* align-items: center; */
+}
+.banner-description{
+    color: #ffffff;
+    display: block;
+    max-width: 480px;
+    
+}
+
+/* banner related styles */
+.banner-content{
+    max-width: 520px;
+    margin: 0 auto;
+
+}
+.styled-shape{
+    font-style: italic;
+    font-family: initial;
+    font-size: 1.2em;
+}
+.banner{
+    margin-right: 350px;
+}
+/* image */
+.image-hero1{
+    max-width: 100%;
+    height: auto;
 }
